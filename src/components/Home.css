@@ -1,0 +1,78 @@
+
+
+#search{
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+
+#result {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+.gridDiv {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #000;
+}
+
+.titleDiv{
+    margin-top: 15px;    
+}
+
+.emailSection,
+.phoneSection,
+.addressSection {
+    text-align: left;
+}
+
+.image {
+    width: 100%;
+    max-width: 180px;
+    box-shadow: 0px 0px 3px 0px #000;
+}
+
+.emailText,
+.phoneText,
+.addressText,
+.nickName {
+    font-weight: bold;
+}
+
+.addressSection p {
+    text-transform: capitalize;
+}
+
+#form form {
+    background-color: #fff;
+}
+
+.h4Style {
+    text-transform: capitalize;
+}
+
+@media (max-width:768px){
+    #result {
+        
+        
+        grid-template-columns: 1fr;
+        
+        
+        
+    }
+
+    .gridDiv{
+        max-width: 100%;
+    }
+}
